@@ -524,13 +524,13 @@
     /* ============================================
        KÜCHE / MENU HIGHLIGHTS
     ============================================ */
-    #kueche {
+    #küche {
       background: var(--bg-soft);
       position: relative;
       overflow: hidden;
     }
 
-    #kueche::before {
+    #küche::before {
       content: 'KÜCHE';
       position: absolute;
       top: 50%;
@@ -544,7 +544,7 @@
       font-weight: 700;
     }
 
-    .kueche-grid {
+    .küche-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 1.5px;
@@ -1307,7 +1307,7 @@
     }
 
     @media (max-width: 900px) {
-      .kueche-grid { grid-template-columns: 1fr 1fr; }
+      .küche-grid { grid-template-columns: 1fr 1fr; }
       .reviews-track { grid-template-columns: 1fr 1fr; }
       .reviews-track .review-card:nth-child(3) { display: none; }
       .reservierung-grid { grid-template-columns: 1fr; gap: 3rem; }
@@ -1325,7 +1325,7 @@
       .info-strip-inner { flex-direction: column; }
       .info-item { border-right: none; border-bottom: 1px solid var(--border); }
       .info-item:last-child { border-bottom: none; }
-      .kueche-grid { grid-template-columns: 1fr; }
+      .küche-grid { grid-template-columns: 1fr; }
       .angebote-grid { grid-template-columns: 1fr; }
       .angebot-card.large { grid-column: 1; }
       .form-row { grid-template-columns: 1fr; }
@@ -1355,7 +1355,7 @@
     <a href="#hero" class="nav-logo">Heimat<span>hafen</span></a>
     <ul class="nav-links">
       <li><a href="#story">Geschichte</a></li>
-      <li><a href="#kueche">Küche</a></li>
+      <li><a href="#küche">Küche</a></li>
       <li><a href="#speisekarte">Speisekarte</a></li>
       <li><a href="#galerie">Atmosphäre</a></li>
       <li><a href="#lage">Lage</a></li>
@@ -1380,7 +1380,7 @@
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
           Tisch reservieren
         </a>
-        <a href="#kueche" class="btn-ghost">
+        <a href="#küche" class="btn-ghost">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 8v4l3 3"/></svg>
           Speisekarte entdecken
         </a>
@@ -1482,7 +1482,7 @@
   </section>
 
   <!-- ==================== KÜCHE ==================== -->
-  <section id="kueche">
+  <section id="küche">
     <div class="section-inner">
       <div class="section-header centered">
         <div class="eyebrow reveal">Hafenküche</div>
@@ -1490,7 +1490,7 @@
         <span class="divider reveal reveal-delay-1"></span>
         <p class="section-lead reveal reveal-delay-2">Hamburger Klassiker, frische Fänge und internationale Einflüsse — alles mit dem unverwechselbaren Geist des Hafens.</p>
       </div>
-      <div class="kueche-grid reveal">
+      <div class="küche-grid reveal">
         <div class="dish-card">
           <div class="dish-img-wrap">
             <img class="dish-img" src="https://images.unsplash.com/photo-1544025162-d76694265947?w=700&q=80&auto=format&fit=crop" alt="Hamburger Fischbrötchen" loading="lazy" />
@@ -1603,7 +1603,7 @@
           <button class="menu-tab active" data-tab="vorspeisen">Vorspeisen</button>
           <button class="menu-tab" data-tab="hauptgerichte">Hauptgerichte</button>
           <button class="menu-tab" data-tab="desserts">Desserts</button>
-          <button class="menu-tab" data-tab="getraenke">Getränke</button>
+          <button class="menu-tab" data-tab="getränke">Getränke</button>
         </div>
         <div class="menu-panel active" id="tab-vorspeisen">
           <div class="menu-list">
@@ -1729,7 +1729,7 @@
             </div>
           </div>
         </div>
-        <div class="menu-panel" id="tab-getraenke">
+        <div class="menu-panel" id="tab-getränke">
           <div class="menu-list">
             <div class="menu-item">
               <div class="menu-item-info">
@@ -2011,7 +2011,7 @@
           <h4>Navigation</h4>
           <ul>
             <li><a href="#story">Geschichte</a></li>
-            <li><a href="#kueche">Küche</a></li>
+            <li><a href="#küche">Küche</a></li>
             <li><a href="#speisekarte">Speisekarte</a></li>
             <li><a href="#angebote">Angebote</a></li>
             <li><a href="#galerie">Galerie</a></li>
